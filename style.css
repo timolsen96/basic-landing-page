@@ -98,6 +98,8 @@ ul {
 .header .hero-button:hover {
     background-color: darkslategray;
     cursor: pointer;
+    transition-duration: 800ms;
+    transform: scale(1.1, 1.1);
 }
 
 .header .hero-image {
@@ -111,7 +113,7 @@ ul {
 }
 
 .boxes {
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .boxes .boxes-header {
@@ -123,6 +125,9 @@ ul {
 
 .boxes .container {
     display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes img {
@@ -140,4 +145,81 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
+    height: 300px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotee {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+
+.cta .white-container {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .white-container .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #fff;
+    margin: 5px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cta-header,
+.cta-text {
+    margin-right: 100px;
+}
+.cta .cta-button {
+    background-color: #3882f6;
+    color: #fff;
+    border: solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0 80px;
+}
+
+.cta .cta-button:hover {
+    background-color: darkslategray;
+    cursor: pointer;
+    transition-duration: 800ms;
+    transform: scale(1.1, 1.1);
+}
+
+footer {
+    height: 60px;
+    background-color: #1f2937;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer .container .footer-text {
+    color: #e5e7eb;
 }
